@@ -96,8 +96,8 @@ font-size: 0.75rem;
 font-size: 0.7rem;
 }
 .btn{
-box-shadow: none !important
-}
+box-shadow: none!important
+;}
 .btn-sm {
 min-width: 32px;
 min-height: 32px;
@@ -846,3 +846,90 @@ color: #fff; transform:translateY(-3px); transition: .3s ease;}
        color:#7aff00;
   }
 .pre{font-family: Courier; }
+
+.item-content .item-meta{display:none!important;}
+.item-content .item-title{text-align:center!important;}
+.mb-3 .item-title{text-align:left!important;}
+.mygd{
+        display :flex;
+        gap:10px;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        text-align: center;
+    }
+  .custom-posts .mb-4{display:none;}
+
+/*<![CDATA[*/
+@font-face{font-family:'Google Sans Text';font-style:normal;font-weight:500;font-display:swap;src:local('Google Sans Text'),local('Google-Sans-Text'),url(https://fonts.gstatic.com/s/googlesanstext/v16/5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEp2iw.woff2) format('woff2')} @font-face{font-family:'Google Sans Text';font-style:normal;font-weight:900;font-display:swap;src:local('Google Sans Text'),local('Google-Sans-Text'),url(https://fonts.gstatic.com/s/googlesanstext/v16/5aUp9-KzpRiLCAt4Unrc-xIKmCU5oPFTnmhjtg.woff2) format('woff2')} @font-face{font-family:'Google Sans Mono';font-style:normal;font-weight:400;font-display:swap;src:local('Google Sans Mono'),local('Google-Sans-Mono'),url(https://fonts.gstatic.com/s/googlesansmono/v4/P5sUzYWFYtnZ_Cg-t0Uq_rfivrdYH4RE8-pZ5gQ1abT53wVQGrk.woff2) format('woff2')}
+/*]]>*/
+
+.entry-title,*{font-family: "Google Sans Text",Poppins, Mukta, Sans serif;}
+/* body{display:block;-khtml-user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}*/
+pre,em{
+-webkit-user-select: text !important;
+-moz-user-select: text !important;
+-ms-user-select: text !important;
+user-select: text !important;
+}
+
+.entry-text h1,h2,h3,h4{font-family: "Google Sans Text",Poppins, Mukta, Sans serif;}
+   .lota{
+      position: fixed;
+      top: 50%;
+      right: 0px;
+      animation: bola 13s;
+     width: 70px;
+      Z-index:999;     
+   }
+   
+   @keyframes bola {
+     0%{
+     top: 10px;
+      right: 0px;   
+     }     
+     100%{
+     bottom: -20px;
+      right: 0px;   
+     }
+   }
+.telegram-icon svg { fill: #fff; width: 20px; height: 20px; } 
+
+.tgf{position: fixed; top: 75%; right: 0; transform: translateY(-50%); z-index: 9999; background-color: white; border-radius: 30px; padding: 5px 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+animation:pulse 2s infinite;
+border: .5px solid gray;
+
+}
+
+.cls-1 {
+        fill: #cf5915;
+      }
+
+      .cls-2 {
+        fill: #ff8721;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        fill: #1d78b5;
+      }
+
+      .cls-5 {
+        fill: #2fa8df;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+      .tgf a svg{width: 34px;} .srvs{background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB); color:#fff!important;
+ }   
+    .srvs:hover{
+     background-image: linear-gradient(23deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    }
+.fullbox{ background: var(--bs-body-bg); display: flex; flex-direction: row; justify-content: space-around; align-items: center; padding: 2px; position: fixed; bottom: 5px; Left: 2px; Right: 2px; transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81); border-radius: 10px; z-index: 9999999999996; width: 96%; margin: 0 auto; box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; } .icnre{ height: 40px!important; width: 40px!important; margin: 4px 19px; display: flex; flex-direction: column; justify-content: center; align-items: center; -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-tap-highlight-color: transparent; color: rgba(42, 52, 84, 1); text-decoration: none; } .share-button button{ border: none; background: transparent;} @media screen and (min-width: 485px) { .fullbox{ Width: 100%; } } @media screen and (min-width: 485px) { .icnre{ width: 50px; height: 50px; } } .hide-ATnav { display: none;} .fullbox { transition: all .5s ease; } .icnre svg{ width: 28px; } </style> <style> .dm{ display: block; width: 100%; max-width: 300px; margin: 10px auto; padding: 10px 10px; text-align: center; font-weight: bold; text-decoration: none; color: white; text-transform: uppercase; background: linear-gradient(180deg, #ffb200, #ff3400); filter: drop-shadow(0 5px 10px #ffeabf); border-radius: 35px; font-size: 20px; font-weight: bold; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; text-shadow: 1px 1px 0px black;} .dn{ display: block; width: 100%; max-width: 300px; margin: 15px auto; padding: 10px 10px; text-align: center; position: relative; text-transform: uppercase; text-decoration: none; color: #fff; background:linear-gradient(180deg, #e347ff, #7b41e0); filter: drop-shadow(0 5px 15px #ccc); border-radius: 45px; font-size: 20px; font-weight: bold; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; text-shadow: 1px 1px 0px black; position: relative; } .dn:hover{color: white; box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; transform: scale(0.97); } .dm:hover{ transform: scale(0.97); box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; Color:white;} .separator img { Border:2px solid #fff; width:100%; pointer-events: ; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;} 
